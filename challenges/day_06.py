@@ -1,4 +1,3 @@
-from io import StringIO
 
 import numpy as np
 from aocd import get_data
