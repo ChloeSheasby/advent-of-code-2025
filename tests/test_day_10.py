@@ -3,7 +3,7 @@ import pytest
 from challenges.day_10 import part_one, part_two
 
 
-class TestDay09():
+class TestDay10():
     @pytest.fixture(autouse=True)
     def setUp(self) -> None:
         self.data = (
