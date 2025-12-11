@@ -1,7 +1,7 @@
 
 import networkx as nx
 from aocd import get_data
-from shapely.geometry import Point, Polygon
+from shapely.geometry import Polygon
 
 
 def part_one(data):
@@ -63,8 +63,6 @@ def part_two(data):
     for edge in edges:
         x1, y1 = edge[0]
         x2, y2 = edge[1]
-        third_point = Point(x1, y2)
-        fourth_point = Point(x2, y1)
 
         interior_polygon = Polygon([
             (x1, y1),
