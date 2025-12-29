@@ -57,9 +57,6 @@ def part_two(data):
         reverse=True
     )
 
-    for interior in poly.interiors:
-        print("Interior:", interior)
-
     for edge in edges:
         x1, y1 = edge[0]
         x2, y2 = edge[1]
